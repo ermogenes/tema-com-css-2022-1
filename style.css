@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Henny+Penny&display=swap');
+
 body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    color: rgb(3, 2 , 10);
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
 }
 
 main#container {
+    background-image: linear-gradient(to bottom, rgb(133, 104, 160) 0%, rgb(93, 61, 110) 100%);
+    border: 30px solid rgb(93, 61, 110);
 }
 
 h1.titulo {
+    color: rgb(64, 58, 129);
+    font-family: 'Henny Penny', cursive;
 }
 
 p.frase {
+    font-weight: bold;
 }
 
 p.autor {
+    font-style: italic;
 }
